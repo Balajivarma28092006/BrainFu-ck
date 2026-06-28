@@ -1,6 +1,6 @@
 # Brainfuck Interpreter
 
-A lightweight, simple [Brainfuck](https://wikipedia.org) interpreter built in **[Language Name]**. This project implements the classic esoteric programming language using a standard data array and pointers to execute code efficiently.
+A lightweight, simple [Brainfuck](https://wikipedia.org) interpreter built in **cpp**. This project implements the classic esoteric programming language using a standard data array and pointers to execute code efficiently.
 
 ## Getting Started
 
