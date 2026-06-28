@@ -2,19 +2,22 @@
 
 A lightweight, simple [Brainfuck](https://wikipedia.org) interpreter built in **[Language Name]**. This project implements the classic esoteric programming language using a standard data array and pointers to execute code efficiently.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-Make sure you have **[Prerequisite/Environment, e.g., Python 3.x / Node.js / GCC]** installed on your system.
+Make sure you have **[GCC, Cmake]** installed on your system.
 
 ### Installation
 
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com
-cd your-repo-name
+git clone https://github.com/Balajivarma28092006/BrainFu-ck.git
+cd BrainFu-ck
+mkdir build
+cmake ..
+cmake --build .
 ```
 
 ## 🛠️ Usage
@@ -24,15 +27,7 @@ You can run your Brainfuck files or use the interactive REPL.
 ### Running a script:
 
 ```bash
-[command] interpreter.py [path/to/script.bf]
-```
-
-### Examples
-
-This repository includes a few sample Brainfuck scripts in the `/examples` folder. To run the classic "Hello World!" program:
-
-```bash
-[command] interpreter.py examples/hello_world.bf
+[command] .\build\Debug\bfc.exe [path/to/script.bf]
 ```
 
 ## Output Example
